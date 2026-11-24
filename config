@@ -1,3 +1,8 @@
 Host *
     IdentityFile ~/.ssh/id_ed25519
     IdentitiesOnly yes
+
+Host k3s
+    HostName 100.103.126.1
+    User root
+    Port 22
